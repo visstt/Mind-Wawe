@@ -1,7 +1,6 @@
 import './App.css';
 import Main_page from './components/Main_page/Main_page';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Tests_page from './components/All_tests_page/All_tests_page';
 import Create_test_page from './components/Create_test_page/Create_test_page';
 import All_tests_page from './components/All_tests_page/All_tests_page';
 import Test_page from './components/Test_page/Test_page';
