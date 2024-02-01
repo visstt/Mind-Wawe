@@ -11,7 +11,7 @@
     background-color: #555AD5;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -20,6 +20,19 @@
     color: white;
     font-size: 20px;
     font-family: Comfortaa;
+}
+
+.nav{
+    margin-left: 30%;
+    font-size: 15px;
+    font-family: Comfortaa; 
+}
+
+.nav a{
+    color: #fff;
+}
+.name a{
+    color: #fff;
 }
 
 

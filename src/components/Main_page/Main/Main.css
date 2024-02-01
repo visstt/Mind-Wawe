@@ -9,6 +9,7 @@
 
 .wrapper{
     display: flex;
+    flex-direction: column;
     position: relative;
     height: calc(100vh - 100px);
     width: 100%;
@@ -22,7 +23,6 @@
     width: auto;
 }
 .text h1{
-
     display: flex;
     justify-content: center;
     margin-left: 50%;
@@ -98,16 +98,16 @@ a{
 
 
 /* Laptop */
-@media (min-width: 850px) and (max-width: 1480px){
+@media (min-width: 1000px) and (max-width: 1480px){
     .photo{
         margin-top: 5%;
-        width: 600px;
-        height: 600px;
+        width: 650px;
+        height: 650px;
     }
     .text{
         margin-top: 10%;
-        margin-left: 35%;
-        max-width: 400px;
+        margin-left: 25%;
+        max-width: 500px;
     }
     .button_main_page{
         margin-left: 76%;
