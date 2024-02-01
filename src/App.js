@@ -6,6 +6,7 @@ import All_tests_page from './components/All_tests_page/All_tests_page';
 import Test_page from './components/Test_page/Test_page';
 import SignIn from './components/Autorization/SignIn/SignIn';
 import SignUp from './components/Autorization/SignUp/SignUp'
+import Profile_page from './components/Profile_page/Profile_page';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/Test_page' element={<Test_page/>}></Route>
         <Route path='/SignIn' element={<SignIn/>}></Route>
         <Route path='/SignUp' element={<SignUp/>}></Route>
+        <Route path='/Profile' element={<Profile_page/>}></Route>
       </Routes>
     </div>
     </Router>

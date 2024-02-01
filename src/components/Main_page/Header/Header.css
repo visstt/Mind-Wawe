@@ -11,7 +11,6 @@
     background-color: #555AD5;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
     align-items: center;
 }
 
@@ -23,18 +22,41 @@
 }
 
 .nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
     margin-left: 30%;
-    font-size: 15px;
+    font-size: 13px;
     font-family: Comfortaa; 
 }
 
 .nav a{
     color: #fff;
+    margin-right: 10%;
 }
 .name a{
     color: #fff;
 }
 
+input[type='search']{
+    margin-left: -50%;
+    margin-right: 10%;
+    height: 30px;
+}
+
+.container-1 input#search{
+    height: 40px;
+    background: #fff;
+    border: none;
+    font-size: 17px;
+    float: left;
+    color: #63717f;
+    padding-left: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
 
 @media (max-width: 849px){
     h1 {

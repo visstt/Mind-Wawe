@@ -9,11 +9,7 @@ function Test_container() {
         <h2 className='name' >Полное название тестa</h2>
         </Link>
         </div>
-        </div>
-
-
-
-       
+        </div>    
     )
     }
     
