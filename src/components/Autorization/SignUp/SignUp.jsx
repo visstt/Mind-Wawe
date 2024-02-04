@@ -15,10 +15,7 @@ function SignUp() {
       <input type="submit" class="fadeIn fourth" value="Вход"/>
     </form>
 
-    
-    <div id="formFooter">
-      <Link to={"#"} class="underlineHover">Забыли пароль?</Link>
-    </div>
+
 
   </div>
 </div>
