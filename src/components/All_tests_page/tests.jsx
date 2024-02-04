@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Test_container from './Test_container';
 function Tests() {
     return(
-        <div className="main">
+        <>
             
             <Link to="/Create_test_page"><button className='button_tests_page'>Создать тест</button></Link>
 
@@ -14,7 +14,7 @@ function Tests() {
                     <Test_container/>
                 </div> 
 
-        </div>
+        </>
     )
     }
     
